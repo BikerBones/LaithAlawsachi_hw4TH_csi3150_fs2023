@@ -1,0 +1,67 @@
+/* Card Styling */
+.car-card {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 10px;
+  width: 300px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.car-card img {
+  max-width: 100%;
+  height: auto;
+}
+
+.card-description {
+  font-size: 14px;
+  color: #555;
+}
+
+.additional-info {
+  margin-top: 10px;
+  display: none;
+}
+
+.read-more-button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.car-card.expanded .read-more-button {
+  background-color: #ffa500;
+}
+
+.centered-car-card {
+  display: flex;
+  justify-content: center;
+  margin-top: -932px;
+}
+
+.centered-car-card2 {
+  display: flex;
+  justify-content: center;
+  margin-top: -10px;
+}
+
+.right-car-card {
+  float: right;
+  margin-top: -931px;
+}
+
+.right-car-card2 {
+  float: right;
+  margin-top: -470px;
+}
+
+h1 {
+  text-align: center;
+  background-color: #748adb;
+  color: white;
+  padding: 10px;
+  border-radius: 8px;
+}
